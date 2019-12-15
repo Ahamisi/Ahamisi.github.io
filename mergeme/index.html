@@ -2,527 +2,568 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="mergme NaijaHack">
-
-  <title>Merge ME - Demo NaijaHack-2019 -</title>
-
-  <!-- Custom fonts for this template-->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-  <!-- Custom styles for this template-->
-  <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Software</title>
+  <!-- Plugins CSS -->
+  <link rel="stylesheet" href="plugins/bootstrap-4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/fancybox-master/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos-animation/aos.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="fonts/ep-icon-fonts/css/style.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.min.css">
+  <link rel="stylesheet" href="fonts/typography-font/typo-fonts.css">
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/settings.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="page-top">
-
-  <!-- Page Wrapper -->
-  <div id="wrapper">
-
-    <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-      <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fab fa-mix"></i>
+<body>
+<div class="site-wrapper">
+    <div class="preloader-wrap">
+        <div class="berlin-cube-grid">
+            <div class="berlin-cube berlin-cube1"></div>
+            <div class="berlin-cube berlin-cube2"></div>
+            <div class="berlin-cube berlin-cube3"></div>
+            <div class="berlin-cube berlin-cube4"></div>
+            <div class="berlin-cube berlin-cube5"></div>
+            <div class="berlin-cube berlin-cube6"></div>
+            <div class="berlin-cube berlin-cube7"></div>
+            <div class="berlin-cube berlin-cube8"></div>
+            <div class="berlin-cube berlin-cube9"></div>
+        </div>
+    </div>
+    <!-- Header Starts -->
+    <header class="site-header d-none d-lg-block">
+        <div class="container-fluid pl-lg--35 pr-lg--35">
+            <div class="row justify-content-between align-items-center position-relative">
+                <div class="col">
+                    <!-- Brand Logo -->
+                    <div class="brand-logo">
+                              <i class="fab fa-mix" style="font-size:60px"></i><strong>MergeMe</strong>
+                    </div>
                 </div>
-        <div class="sidebar-brand-text mx-3">MergeME <sup></sup></div>
-      </a>
+                <!-- Menu Block -->
+                <div class="col">
+                    <div class="main-navigation ">
+                        <ul class="main-menu">
+                            <!-- <li class="menu-item has-dropdown">
+                                <a href="#features">Demos</a>
+                                <ul class="menu-dropdown">
+                                    <li class="single-item">
+                                        <a href="../s01/index.html">
+                                        <h3>Mobile Application</h3> 
+                                        <p>Best for Mobile App Presentation</p>
+                                        </a>
+                                    </li>
+                                    <li class="single-item">
+                                        <a href="../s02/index.html">
+                                            <h3>Web Application</h3>
+                                            <p>Best for Web Application</p>
+                                        </a> 
+                                    </li>
+                                    <li class="single-item">
+                                        <a href="../s03/index.html">
+                                        <h3>SaaS Application</h3>
+                                        <p>Best for SaaS Application</p>
+                                    </a> 
+                                    </li>
+                                    <li class="single-item">
+                                        <a href="../s04/index.html">
+                                                <h3>SaaS Subscription</h3>
+                                            <p>Best for SaaS Subscription</p>
+                                        </a> 
+                                    </li>
+                                    <li class="single-item">
+                                        <a href="../s05/index.html">
+                                            <h3>Digital Service</h3>
+                                            <p>Best for Digital Services</p>
+                                        </a>
+                                    </li>
+                                    <li class="single-item">
+                                        <a href="../s06/index.html">
+                                            <h3>Online Course</h3>
+                                            <p>Best for Online Course</p>
+                                        </a>
+                                    </li>
+                                    <li class="single-item">
+                                        <a href="../s07/index.html">
+                                            <h3>Software</h3>
+                                            <p>Best for Software & Application</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li> -->
+                            <li class="menu-item"><a href="#feature">About</a></li>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
+                            <li class="menu-item"><a href="#demos">Demos</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu"></div>
+                </div>
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
-      </li>
+                <!-- Button Block -->
+                <div class="col">
+                    <div class="header-btns">
+                        <a href="{{ url('/login') }}" class="btn btn--transparent ">Sign in</a>
+                        <a href="{{ url('/register') }}" class="btn btn--primary hvr-shine">Register  Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Interface
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Home</span>
-        </a>
-       
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>Settings</span>
-        </a>
-      
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
+    <!-- Mobile menu Header Starts -->
+    <div class="mobile-header d-lg-none">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-7" style="color: #fff;">
+                    <a href="{{ url('/home') }}" class="site-brand">
+                        <i class="fab fa-mix" style="font-size:60px"></i><strong>MergeMe</strong>
+                    </a>
+                </div>
+                <div class="col-md-8 col-5 text-right">
+                    <div class="header-top-widget">
+                        <ul class="header-links">
+                            <li class="single-link">
+                                <a href="#" class="link-icon hamburger-icon off-canvas-btn"><i
+                                        class="icon icon-menu-34"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Off Canvas Navigation Start-->
+    <aside class="off-canvas-wrapper">
+        <div class="btn-close-off-canvas">
+            <i class="icon icon-simple-remove"></i>
+        </div>
+        <div class="off-canvas-inner">
+            <!-- mobile menu start -->
+            <div class="mobile-navigation">
+                <!-- mobile menu navigation start -->
+                <nav class="off-canvas-nav">
+                    <ul class="mobile-menu">
+                        <li class="menu-item"><a href="#feature">About</a></li>
     
-
-      <!-- Nav Item - Pages Collapse Menu -->
-     
-      <!-- Divider -->
-
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
-
-    </ul>
-    <!-- End of Sidebar -->
-
-    <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-
-      <!-- Main Content -->
-      <div id="content">
-
-        <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-          <!-- Sidebar Toggle (Topbar) -->
-          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
-          </button>
-
-          <!-- Topbar Search -->
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
+                        <li class="menu-item"><a href="#demos">Demos</a></li>
+    
+                    </ul>
+                </nav>
+                <!-- mobile menu navigation end -->
             </div>
-          </form>
-
-          <!-- Topbar Navbar -->
-          <ul class="navbar-nav ml-auto">
-
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </li>
-
-            <!-- Nav Item - Alerts -->
-            <li class="nav-item dropdown no-arrow mx-1">
-              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bell fa-fw"></i>
-                <!-- Counter - Alerts -->
-                <span class="badge badge-danger badge-counter">3+</span>
-              </a>
-              <!-- Dropdown - Alerts -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
-                <h6 class="dropdown-header">
-                  Alerts Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-primary">
-                      <i class="fas fa-file-alt text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 12, 2019</div>
-                    <span class="font-weight-bold">Demo 2 Viewed your profile</span>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-success">
-                      <i class="fas fa-donate text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 7, 2019</div>
-                    Demo 3 Initialised an offer with you
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-warning">
-                      <i class="fas fa-exclamation-triangle text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">December 2, 2019</div>
-                    MergeMe Admin Verified your account
-                  </div>
-                </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
-              </div>
-            </li>
-
-            <!-- Nav Item - Messages -->
-            <li class="nav-item dropdown no-arrow mx-1">
-              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-envelope fa-fw"></i>
-                <!-- Counter - Messages -->
-                <span class="badge badge-danger badge-counter">7</span>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
-                <h6 class="dropdown-header">
-                  Message Center
-                </h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
-                  </div>
-                  <div class="font-weight-bold">
-                    <div class="text-truncate">Hi there! I am wondering if we could collaborate on a gig i just got.</div>
-                    <div class="small text-gray-500">Demo 5 · 58m</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
-                    <div class="status-indicator"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
-                    <div class="small text-gray-500">Jae Chun · 1d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
-                    <div class="status-indicator bg-warning"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
-                    <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                  </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="dropdown-list-image mr-3">
-                    <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
-                    <div class="status-indicator bg-success"></div>
-                  </div>
-                  <div>
-                    <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
-                    <div class="small text-gray-500">Chicken the Dog · 2w</div>
-                  </div>
-                </a>
-                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
-              </div>
-            </li>
-
-            <div class="topbar-divider d-none d-sm-block"></div>
-
-            <!-- Nav Item - User Information -->
-            <li class="nav-item dropdown no-arrow">
-              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">MergeMe Demo</span>
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
-              </a>
-              <!-- Dropdown - User Information -->
-              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Activity Log
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Logout
-                </a>
-              </div>
-            </li>
-
-          </ul>
-
-        </nav>
-        <!-- End of Topbar -->
-
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
-
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate E-Resume</a>
-          </div>
-
-          <!-- Content Row -->
-          <div class="row">
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Profile Strength</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">80%</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
+            <!-- mobile menu end -->
+    
+            <!-- Header buttons start -->
+            <div class="header-btns offcanvas">
+                <div class="header-btns">
+                    <a href="{{ url('/login') }}" class="btn btn-primary--opacity hvr-bounce-to-right">Sign in</a>
+                    <a href="{{ url('/register') }}" class="btn btn--primary hvr-shine">Register Now</a>
                 </div>
-              </div>
             </div>
+            <!-- Header buttons end -->
+        </div>
+    </aside>
+    <!--Off Canvas Navigation End-->
+    <!-- Banner Section -->
 
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Working Rate</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">40%</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-info shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Performance Rate</div>
-                      <div class="row no-gutters align-items-center">
-                        <div class="col-auto">
-                          <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+    <!-- Banner Section -->
+    <section class="hero-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8 col-md-10">
+                    <div class="hero-content">
+                        <h1 class="title h2">Get your Dream Job, faster!</h1>
+                        <p>Get Fulltime, Contract and Freelance roles in all industry ranging from Fashion, ICT, Domestic,
+                            Events Planning and so on </p>
+                        <div class="hero-btn">
+                            <a href="{{ url('/register')}}" class="btn btn--primary hvr-shine">Get Started Now</a>
+                            <span class="text--info">Automated and realtime job monitoring dashboard</span>
                         </div>
-                        <div class="col">
-                          <div class="progress progress-sm mr-2">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="dashboard-img" data-aos="fade-up" data-aos-duration='1500' data-aos-once="true">
+                        <img src="landing/image/dashboard-analytics.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="hero-shape"><img src="image/hero-shape.png" alt=""></div> -->
+    </section>
+    
+    <!-- Feature Section -->
+    <div class="feature-section" id="feature">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-9 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration='1500' data-aos-once="true"
+                    data-aos-delay="300">
+                    <div class="widget01 feature--widget">
+                        <div class="widget__icon">
+                            <span class="inner-circle circle-bg-1"></span>
+                            <span class="outer-circle circle-bg-1"></span>
                         </div>
-                      </div>
+                        <div class="widget__body divider--right">
+                            <h3 class="widget__heading h6">Single Platform</h3>
+                            <p>Take control of everything, switch from freelance to fulltime, change your job market
+                                instantly.</p>
+                        </div>
                     </div>
-                    <div class="col-auto">
-                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
                 </div>
-              </div>
+                <div class="col-sm-9 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration='1500' data-aos-once="true"
+                    data-aos-delay='800'>
+                    <div class="widget01 feature--widget">
+                        <div class="widget__icon">
+                            <span class="inner-circle circle-bg-2"></span>
+                            <span class="outer-circle circle-bg-2"></span>
+                        </div>
+                        <div class="widget__body divider--right">
+                            <h3 class="widget__heading h6">Faster Communication</h3>
+                            <p>Have direct communication with your clients via our sms messages and voice calls.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration='1500' data-aos-once="true"
+                    data-aos-delay='1300'>
+                    <div class="widget01 feature--widget">
+                        <div class="widget__icon">
+                            <span class="inner-circle circle-bg-3"></span>
+                            <span class="outer-circle circle-bg-3"></span>
+                        </div>
+                        <div class="widget__body">
+                            <h3 class="widget__heading h6">Everything in One Place</h3>
+                            <p>We care for you ate MergeME. So we have bulk of clienteles waiting for your service</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!-- Pending Requests Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-warning shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Offers</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-comments fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Content Row -->
-
-          <div class="row">
-
-            <!-- Area Chart -->
-            <div class="col-xl-8 col-lg-7">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Latest Jobs Offers</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Filter:</div>
-                      <a class="dropdown-item" href="#">Recently Added</a>
-                      <a class="dropdown-item" href="#">price Rates</a>
-                      <div class="dropdown-divider"></div>
-                      <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                    </div>
-                  </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-area">
-                    <!-- <canvas id="myAreaChart"></canvas> -->
-                    <div class="card mb-4">
-                      <div class="card-header">
-                        House Keeper
-                      </div>
-                      <div class="card-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, atque esse. Architecto veniam aperiam excepturi nostrum officia quis esse labore, praesentium dolore! Qui, est. Quo dolor accusantium similique modi tempora?
-                      </div>
-                    </div>
-                    <div class="card mb-4">
-                      <div class="card-header">
-                        Child Nanny
-                      </div>
-                      <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quis odit consectetur, voluptatibus veritatis, vitae error ducimus eius
-                      </div>
-                    </div>
-                    <br><br>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pie Chart -->
-            <div class="col-xl-4 col-lg-5">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Job Sources</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Dropdown Header:</div>
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myPieChart"></canvas>
-                  </div>
-                  <div class="mt-4 text-center small">
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Direct
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Social
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> Referral
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Content Row -->
-        
         </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; MergeME 2019</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
-
     </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <!-- Logout Modal-->
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
+    <!-- Content Section -->
+    <div class="content-section bg-light-white section-padding" id="demos">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="content-img content-img-group-1">
+                        <div class="image-1 d-none d-md-block " data-aos="fade-left" data-aos-duration='1500'
+                            data-aos-once="true">
+                            <img src="landing/image/content-1-1.png" alt="">
+                        </div>
+                        <div class="image-2 image-overlay d-none d-md-block" data-aos="fade-right" dat
+                            data-aos-duration="1500" data-aos-once="true">
+                            <img src="landing/image/content-1-2.png" alt="">
+                        </div>
+                        <div class="image-mobile d-md-none">
+                            <img src="landing/image/content-1-mobile.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-6">
+                    <div class="content-section-text">
+                        <h2 class="title">Never miss out <br class="d-none d-xs-block"> the right opportunity.</h2>
+                        <p>As an employee you are positioned on every opportunities matching your profile.</p>
+                        <a href="{{ url('/register') }}" class="btn btn-primary--opacity hvr-bounce-to-right">Register
+                            Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-        <div class="modal-footer">
-          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
-        </div>
-      </div>
     </div>
-  </div>
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Core plugin JavaScript-->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
-
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
-
-</body>
-
-</html>
+    <!-- Content Section 2 -->
+    <div class="content-section section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7 col-lg-6 col-md-6 order-md-2">
+                    <div class="content-img content-img-group-2">
+                        <div class="image-1 d-none d-md-block" data-aos="fade-right" data-aos-duration='1500'
+                            data-aos-once="true">
+                            <img src="landing/image/content-2-1.png" alt="">
+                        </div>
+                        <div class="image-2 d-none d-md-block" data-aos="fade-left" data-aos-duration='1500'
+                            data-aos-once="true">
+                            <img src="landing/image/content-2-2.png" alt="">
+                        </div>
+                        <div class="image-mobile d-md-none">
+                            <img src="landing/image/content-2-mobile.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 col-md-6 order-md-1">
+                    <div class="content-section-text">
+                        <h2 class="title">Listen to the <br class="d-none d-xs-block">market anonimously</h2>
+                        <p>Whether its you making clothes for a client, take control over your career and your life thanks
+                            to MergeMe.</p>
+                        <a href="{{ url('/register') }}" class="btn btn-primary--opacity hvr-bounce-to-right">Register
+                            Now</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="content-section bg-light-white section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="content-img content-img-group-1">
+                        <div class="image-1 d-none d-md-block " data-aos="fade-left" data-aos-duration='1500'
+                            data-aos-once="true">
+                            <img src="landing/image/content-1-1.png" alt="">
+                        </div>
+                        <div class="image-2 image-overlay d-none d-md-block" data-aos="fade-right" dat
+                            data-aos-duration="1500" data-aos-once="true">
+                            <img src="landing/image/content-1-2.png" alt="">
+                        </div>
+                        <div class="image-mobile d-md-none">
+                            <img src="landing/image/content-1-mobile.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-6">
+                    <div class="content-section-text">
+                        <h2 class="title">Its Free <br class="d-none d-xs-block"> No Kobo!!!.</h2>
+                        <p>Whether you are a freelancer or an employee MergeMe covers it all, and its totally free. For
+                            freelancers, timesheet and invoicing management are free.</p>
+                        <a href="{{ url('/register') }}" class="btn btn-primary--opacity hvr-bounce-to-right">Register
+                            Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Section -->
+    <div class="section-padding video-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-10">
+                    <div class="video-content">
+                        <a data-fancybox href="#" class="video-btn" data-aos="zoom-in" data-aos-duration='1000'
+                            data-aos-once="true"><i class="icon icon-triangle-right-17-2"></i></a>
+                        <h2 class="title">We help you to be successful</h2>
+                        <p>As your career management tool MergeMe is always on your side. You decide when to listen to the
+                            market.</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    
+    <!-- Pricing Section -->
+    <div id="price-section" class="pricing-section section-padding-top mb--60 mb-md--80">
+        <div class="pricing-section-bg">
+            <div class="pricing-shape">
+                <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 72"
+                    version="1.1">
+                    <path
+                        d="M0 9.21563C0 9.21563 486.438 -2.64935 790.035 31.8207C1093.63 66.2908 1343.93 92.2333 1600 44.5336L1600 0L0 0L0 9.21563Z"
+                        transform="translate(0 0.5)" id="Path-4" fill="#D8D8D8" stroke="none" class="pricing-shape-color" />
+                </svg>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-xl-8 mb--35">
+                    <div class="section-title">
+                        <h2 class="title h3">Our Market</h2>
+                        <!-- <p>Wireframes are generally created by business analysts, user experience designers, developers, visual designers, and by those with expertise</p> -->
+                    </div>
+                </div>
+    
+    
+    
+            </div>
+        </div>
+    
+        <!-- Brand Section -->
+        <div class="brand-section pb--60 pb-md--100">
+            <div class="container">
+                <div class="brand-top-text">
+                    <P>We are proud to have some big brands as our sponsors</P>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-10">
+                        <div class="brand-wrapper">
+                            <div class="single-brand">
+                                <img src="https://naijahacks.com/guide/img/favicon.png" alt="" style="height: 45px">
+                            </div>
+                            <div class="single-brand">
+                                <img src="https://naijahacks.com/static/media/xyz.c89e99e6.png" alt="" style="height: 45px">
+                            </div>
+                            <div class="single-brand">
+                                <img src="https://naijahacks.com/static/media/bizskill_logo.cb40a5c3.svg" alt=""
+                                    style="height: 45px">
+                            </div>
+                            <div class="single-brand">
+                                <img src="https://naijahacks.com/2018/res/sponsors/linode.png" alt="" style="height: 45px">
+                            </div>
+                            <div class="single-brand">
+                                <img src="https://naijahacks.com/static/media/Nexmo_VonageAPI_vert.1543b393.png" alt=""
+                                    style="height: 45px">
+                            </div>
+                            <div class="single-brand">
+                                <img src="https://naijahacks.com/2018/res/sponsors/twilio.png" alt="" style="height: 45px">
+                            </div>
+    
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Testimonial Section -->
+        <div class="pb--60 pb-md--70">
+            <div class="container">
+                <div class="card-group berlin-card-group">
+                    <div class="card testimonial-card-1">
+                        <div class="card-body">
+                            <span class="quote-icon" style="visibility: hidden">”</span>
+                            <p class="card-text">ICT</p>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card-1">
+                        <div class="card-body">
+                            <span class="quote-icon" style="visibility: hidden">”</span>
+                            <p class="card-text">Engineering</p>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card-1">
+                        <div class="card-body">
+                            <span class="quote-icon" style="visibility: hidden">”</span>
+                            <p class="card-text">Sales & Marketing</p>
+                        </div>
+                        <div class="card-footer" style="visibility: hidden">
+                            <div class="client-card">
+                                <div class="image">
+                                    <img src="landing/image/testimonial3.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title">Cameron Anderson</h5>
+                                    <span>From CrazyEggs.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pb--60 pb-md--70" style="margin-top:-90px;">
+            <div class="container">
+                <div class="card-group berlin-card-group">
+                    <div class="card testimonial-card-1">
+                        <div class="card-body">
+                            <span class="quote-icon" style="visibility: hidden">”</span>
+                            <p class="card-text">Finance</p>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card-1">
+                        <div class="card-body">
+                            <span class="quote-icon" style="visibility: hidden">”</span>
+                            <p class="card-text">Construction and real estate</p>
+                        </div>
+                    </div>
+                    <div class="card testimonial-card-1">
+                        <div class="card-body">
+                            <span class="quote-icon" style="visibility: hidden">”</span>
+                            <p class="card-text">Fashion and Household</p>
+                        </div>
+                        <div class="card-footer" style="visibility: hidden">
+                            <div class="client-card">
+                                <div class="image">
+                                    <img src="landing/image/testimonial3.png" alt="">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title">Cameron Anderson</h5>
+                                    <span>From CrazyEggs.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- CTA Section -->
+        <div class="pb--60 pb-md--165">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10 col-md-12">
+                        <div class="cta-wrapper">
+                            <h3 class="title mt--20" data-aos="fade-right" data-aos-duration='1500' data-aos-once="true">Get
+                                Jobs in one place</h3>
+                            <div class="button" data-aos="fade-left" data-aos-duration='1500' data-aos-once="true">
+                                <a href="{{ url('/register') }}" class="btn btn--primary mt--20  hvr-shine">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer class="section-padding-top footer-bg shape-holder">
+        <div class="container">
+            <div class="row justify-content-md-center justify-content-lg-left space-db--40">
+    
+    
+    
+    
+    
+            </div>
+    
+            <div class="copyright-area pt--60 pt-md--80 pb--40">
+                <div class="row align-items-center space-db--10">
+                    <div class="col-lg-2 offset-lg-2 col-md-3 order-md-3 mb--10">
+                        <ul class="footer-list social-list">
+                            <li><a href=""><i class="icon icon-logo-twitter"></i></a></li>
+                            <li><a href=""><i class="icon icon-logo-fb-simple"></i></a></li>
+                            <li><a href=""><i class="icon icon-google"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 col-md-5 col-sm-7 order-md-2 mb--10">
+                        <ul class="footer-list list-inline">
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
+                            <li><a href="">Site map</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-5 order-md-1  mb--10">
+                        <p class="mb-0">© 2019 MergeMe. All rights reserved</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <div class="footer-shapes">
+            <div class="shape-1">
+                <img src="landing/image/footer-shape.svg" alt="">
+            </div>
+            <div class="shape-2">
+                <!-- <img src="landing/image/footer-shape-white.svg" alt=""> -->
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- Vendor JS-->
+    <script src="landing/plugins/jquery/jquery.min.js"></script>
+    <script src="landing/plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="landing/plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+    
+    <!-- Plugins JS -->
+    <script src="landing/plugins/fancybox-master/jquery.fancybox.min.js"></script>
+    <script src="landing/plugins/aos-animation/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="landing/js/active.js"></script>
+    </body>
+    
+    </html>
