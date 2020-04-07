@@ -386,6 +386,22 @@ background: url('http://www.templates-preview.com/bootstrap-templates/300111854/
 .wave2 {
 background: url('http://www.templates-preview.com/bootstrap-templates/300111854/images/wave2.png') 0 0 repeat-x;
 }
+.full-width{
+	width: 100% !important;
+	    right: 0;
+    border-radius: 0 0 5px 0;
+    background-color: #ff7d00;
+    color: #fff;
+}
+one-color{
+	color:#ff7d00 !important;
+}
+pad-none{
+	padding: 0px !important;
+}
+pad-double{
+	padding-right: 20px;padding-left: 20px;
+}
 
 
 .line {
