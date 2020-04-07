@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container1">
+   <div class="container1">
         <div class="overlay">
           <div class="bird-container bird-container--one">
             <div class="bird bird--one"></div>
@@ -22,19 +22,13 @@
             <div class="bird bird--four"></div>
           </div>
         <div class="row" id="logg">
-            <div class="col col-lg-8 col-md-6 col-sm-4 col-xs-4" style="padding: 0px ;">
-                    <div class="bg-image" style="padding-right: 20px;padding-left: 20px;"></div>
-                <div class="container3" style="padding: 0px">
+            <div class="col col-lg-8 col-md-6 col-sm-4 col-xs-4 pad-none">
+                    <div class="bg-image pad-double"></div>
+                <div class="container3 pad-none">
                     <p class="line anim-typewriter">NAYA STUDIO</p>
                 </div>
-		<br><br>
-                <div class="col-md-12" style="text-align: center;margin:-10%;">
-                    <button  style="cursor:pointer;" onclick="window.location = '<?php echo $loginURL ?>';" class="btn d-flex mx-auto"><img class="img" style="padding-top: 2px;height: 42px;width: 260px;" src="google_sign.png"></button> 
-                    <div style="cursor:pointer;" class="fb-login-button d-flex mx-auto" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
-                </div>
+                
             </div>
-      <!-- <div class="wave1"></div>
-          <div class="wave2"></div> -->
           </div>
       </div>
     </div>
@@ -51,12 +45,12 @@
               <option value="maker">Maker</option>
               <option value="both">Both</option>
             </select>            
-            <button class="form-btn dx log-in" type="button" class="w100" style="width:100%;">Next</button>
+            <button class="form-btn dx log-in full-width w100" type="button">Next</button>
           </span>
         <span class="form-contain signIn">
 			    <div id="space"></div>
           <div id="type-1">
-            <label for="points" style="color:#ff7d00;"><span> How many projects on average do you work on every month?</span><span class="span-1">0</span> <span class="span-2">10</span></label>
+            <label for="points" class="one-color"><span> How many projects on average do you work on every month?</span><span class="span-1">0</span> <span class="span-2">10</span></label>
             <input name="capacity_maker" min="0" max="10" type="range"/>
             <select name="material" class="w100 user_type">
               <option value="">What kind of materials do you work with</option>
