@@ -589,6 +589,15 @@ input:checked + .slider:before {
   #fifth-section{
     padding: 20px;
   }
+  #fourth-section,.slider-text{
+    display: block !important;
+  }
+  .slider-left{
+    display: none !important;
+  }
+  .slider-home{
+    padding: 0px !important;
+  }
 }
 
 /* end media queries */
