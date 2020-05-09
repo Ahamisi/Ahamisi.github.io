@@ -546,6 +546,22 @@ input:checked + .slider:before {
     margin-top: 2px;
   }
 }
+@media(max-width: 425px){
+  #first-section, #fifth-section,#slider-home{
+    display: block !important;
+    margin: none;
+    padding: 5px;
+  }
+  .right-svg{
+    display: none;
+  }
+  .housing-div-one{
+    display: flex;
+  }
+  #section-variations{
+    font-size: 5%;
+  }
+}
 
 /* end media queries */
 
