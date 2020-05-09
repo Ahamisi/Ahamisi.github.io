@@ -571,6 +571,7 @@ input:checked + .slider:before {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    display: block !important;
 
   }
   table{
