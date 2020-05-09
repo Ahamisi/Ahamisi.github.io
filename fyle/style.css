@@ -574,6 +574,9 @@ input:checked + .slider:before {
     display: block !important;
 
   }
+  .can-display{
+    display: block !important;
+  }
   table{
     width: 95% !important;
   }
