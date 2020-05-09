@@ -555,6 +555,9 @@ input:checked + .slider:before {
   .right-svg{
     display: none;
   }
+  .left-column{
+    margin-left: 0px;
+  }
   .housing-div-one{
     display: flex;
   }
