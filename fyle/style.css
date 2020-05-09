@@ -560,13 +560,18 @@ input:checked + .slider:before {
   }
   .housing-div-one{
     display: flex;
+    width: 100%;
+    overflow-x: scroll;
   }
   #section-variations{
     /* font-size: 5%; */
   }
   .variation-component-two{
     overflow-x: scroll;
-    width: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
   }
   #third-section{
     margin-top: 600px;
