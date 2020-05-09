@@ -562,7 +562,7 @@ input:checked + .slider:before {
     display: flex;
   }
   #section-variations{
-    font-size: 5%;
+    /* font-size: 5%; */
   }
   .variation-component-two{
     overflow-x: scroll;
@@ -570,6 +570,12 @@ input:checked + .slider:before {
   }
   #third-section{
     margin-top: 600px;
+  }
+  .variation-component{
+    width: 20% !important;
+  }
+  #fifth-section{
+    padding: 20px;
   }
 }
 
