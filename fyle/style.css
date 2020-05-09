@@ -564,6 +564,10 @@ input:checked + .slider:before {
   #section-variations{
     font-size: 5%;
   }
+  .variation-component-two{
+    overflow-x: scroll;
+    width: 100%;
+  }
 }
 
 /* end media queries */
