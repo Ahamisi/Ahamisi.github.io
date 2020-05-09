@@ -573,6 +573,9 @@ input:checked + .slider:before {
     margin-right: auto;
 
   }
+  table{
+    width: 95% !important;
+  }
   #third-section{
     margin-top: 600px;
   }
